@@ -1,0 +1,43 @@
+# Descripción del Proyecto
+Este proyecto es una implementación de un programa para resolver el problema del Agente Viajero (TSP, por sus siglas en inglés) utilizando dos algoritmos diferentes: fuerza bruta y vecino más cercano. El objetivo del programa es encontrar la ruta más corta que permita a un viajero visitar un conjunto de ciudades y regresar a su ciudad de origen.
+
+El programa permite al usuario generar una matriz de distancias aleatorias entre las ciudades o ingresar manualmente las distancias. Luego, se calculan y visualizan las rutas posibles, mostrando la mejor ruta encontrada y sus distancias.
+
+# Características
+    - Generación de Matriz de Distancias: El usuario puede elegir entre generar una matriz de distancias aleatorias (de tamaño entre 8 y 16) o ingresar las distancias manualmente.
+    - Visualización de Rutas: Se utilizan gráficos para mostrar las rutas calculadas, incluyendo la mejor ruta encontrada y la opción de ver rutas específicas.
+    - Interfaz de Usuario: Menú interactivo que permite al usuario seleccionar opciones y visualizar resultados de manera clara.
+
+
+# Resolución del TSP:
+    - Fuerza Bruta: Utilizado para matrices de tamaño menor o igual a 10. Este método evalúa todas las rutas posibles para encontrar la más corta.
+    - Vecino Más Cercano: Utilizado para matrices de tamaño mayor o igual a 11. Este método construye rutas a partir de la elección del nodo más cercano disponible.
+
+
+# Requisitos
+    Python 3.x
+    Bibliotecas:
+    NumPy
+    Matplotlib
+    NetworkX
+    Tabulate
+
+
+# Uso
+    1. Al iniciar el programa, se mostrará un menú principal.
+    2. Selecciona la opción para generar una matriz aleatoria o ingresar una matriz manualmente.
+    3. Elige el tamaño de la matriz (entre 8 y 16).
+    4. Una vez que se genere la matriz, el programa calculará las rutas y mostrará la mejor ruta      encontrada junto con sus distancias.
+    5. Puedes visualizar la ruta en un gráfico o seleccionar rutas específicas para ver.
+    
+    
+# Contribuyentes
+    Este proyecto fue desarrollado por el Grupo 4 del curso de Matemática Computacional:
+        Herrera Isla, Jose Luis
+        Quispe Salvador, Jean Paul
+        Rodriguez Espinoza, Jairo Jalil Antonino
+        Sandonas Mechato, Benjamín Del Piero
+        Zurita Lara, Rodrigo Eduardo
+
+
+¡Esperamos que encuentres útil este programa y que disfrutes explorando el problema del Agente Viajero!
